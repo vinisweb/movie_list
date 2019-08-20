@@ -1,0 +1,32 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "Demo project for job candidates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json"
+  },
+  "author": "Ivan Kovic",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "json-server": "^0.14.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-dropdown": "^1.6.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

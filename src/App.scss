@@ -1,0 +1,25 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.options {
+    width: 300px;
+    margin-right: 3rem;
+    border-right: 1px solid lightgrey;
+    padding: 2rem;
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.form-check-rated {
+    padding-bottom: 10px;
+}
+
+.form-check-genre {
+    padding-bottom: 10px;
+}
